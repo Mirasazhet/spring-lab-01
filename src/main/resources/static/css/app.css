@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    margin: 2rem;
+    color: #222;
+}
+h1 { color: #2a4d8f; }
+table { border-collapse: collapse; background: #fff; }
+th, td { border: 1px solid #8aa0c8; padding: 8px 14px; text-align: left; }
+th { background: #2a4d8f; color: #fff; }
+tr:nth-child(even) td { background: #e8eefa; }
+.flash {
+    background: #d9f2dd;
+    border: 1px solid #4caf50;
+    padding: 8px 12px;
+    color: #1e5e24;
+}
+form { margin-top: 1rem; }
+input, button { padding: 6px; margin-right: 6px; }
