@@ -17,6 +17,8 @@ app:
   security:                     # individual assignment, variant 3
     token-ttl: 30m
     min-password-length: 12
+  aspect:                       # lab 4, individual assignment, variant 2
+    slow-threshold-ms: 200      # calls longer than this are collected by SlowMethodAspect
 
 logging:
   level:
