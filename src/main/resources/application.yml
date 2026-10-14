@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: spring-lab-01
+
+server:
+  port: 8080
+
+app:
+  owner: Azhet Miras
+  group: IT1-2411
+  date-pattern: yyyy-MM-dd HH:mm:ss
+  mail:
+    from: no-reply@iitu.kz
+    retry-count: 3
+    timeout: 5s
+    enabled: true
+  security:                     # individual assignment, variant 3
+    token-ttl: 30m
+    min-password-length: 12
+
+logging:
+  level:
+    kz.iitu: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,env,configprops,conditions
+  endpoint:
+    env:
+      show-values: always
+    configprops:
+      show-values: always

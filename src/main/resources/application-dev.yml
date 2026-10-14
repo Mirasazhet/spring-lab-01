@@ -1,0 +1,12 @@
+server:
+  port: 8081
+app:
+  mail:
+    enabled: false             # no mail is sent in development
+    retry-count: 1
+  security:
+    token-ttl: 8h              # long-lived tokens are convenient in development
+    min-password-length: 8
+logging:
+  level:
+    kz.iitu: DEBUG
